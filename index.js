@@ -122,10 +122,9 @@ app.get("/manga/:id", async(req, res) => {
 });
 
 app.get('*', (req, res) => {
-    res.header("401");
-    res.render("html/401.html");
+    res.status(404);
+    res.render("html/404.html"); // Ajuste o caminho para a página de erro 404 correta.
 });
-
 app.listen(port, () => {
     console.log(`Running at http://localhost:${port}/`);
 });
