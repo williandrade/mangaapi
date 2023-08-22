@@ -10,11 +10,10 @@ Uma simples API de mangás que tem o mangá livre como source. Feita em Node.js,
 # Instalação
 
 ## Dependências
-
     ejs
     express
     got
-
+    nodemon (opcional)
 
 No diretório do projeto, digite:
 
@@ -23,7 +22,11 @@ No diretório do projeto, digite:
 ## Execução
 No diretório do projeto, digite:
 
-    node index.js
+    npm start
+
+Para desenvolvimento você pode usar:
+
+    npm run start:dev
 
 # Exemplos de uso
 Alguns exemplos de uso da API.
