@@ -1,7 +1,7 @@
 const express = require('express');
 const api = require("./api");
 const app = express();
-const port = 80;
+const port = 8080;
 
 app.set("views", "./static/");
 app.use(express.static("./public/"))
